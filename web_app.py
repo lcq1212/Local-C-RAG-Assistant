@@ -134,4 +134,5 @@ if prompt := st.chat_input("请输入你的问题..."):
                     else:
                         st.error(f"后端报错: {res.text}")
                 except Exception as e:
-                    st.error("无法连接本地电脑！请确保 local_server.py 和 cpolar 正在运行，且 TUNNEL_URL 填写正确。")
+                                  except Exception as e:
+                    st.error(f"❌ 连接失败！真实原因: {e}")
