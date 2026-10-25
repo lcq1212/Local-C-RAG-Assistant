@@ -11,10 +11,8 @@ API_KEY=st.secrets.get("API_KEY","efa2cc57d8664740bb409bda8d127d5e.pWrWiWFOa6zuv
 EMBEDDING_URL = "https://open.bigmodel.cn/api/paas/v4/embeddings"
 CHAT_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
 
-# ⚠️⚠️⚠️ 注意：如果 cpolar 重启了，必须把这里换成最新的 5000 端口地址
-TUNNEL_URL=st.secrets.get("TUNNEL_URL","https://147388c1.r31.cpolar.top/api/search")
- SECRET_TOKEN = "my_super_secret_token_123"
-
+# ⚠️⚠️⚠️ 注意：如果 cpolar 重启了，必须把这里换成最新的 5000 端口地址TUNNEL_URL=st.secrets.get("TUNNEL_URL","https://147388c1.r31.cpolar.top/api/search")
+SECRET_TOKEN = "my_super_secret_token_123"
 EXE_DIR = r"C:\Users\30768\source\repos\VectorDB\VectorDB" 
 ADMIN_PASSWORD = "admin888" 
 
