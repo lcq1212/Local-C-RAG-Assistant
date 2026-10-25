@@ -117,7 +117,7 @@ if prompt := st.chat_input("请输入你的问题..."):
             with st.spinner("2. 公网呼叫本地 C 语言算力..."):
                 try:
                     payload = {"token": SECRET_TOKEN, "vector": q_vec}
-                    res = requests.post(TUNNEL_URL, json=payload, timeout=15)
+                    res = requests.post(TUNNEL_URL, json=payload, timeout=120)
                     
                     if res.status_code == 200:
                         res_data = res.json()
