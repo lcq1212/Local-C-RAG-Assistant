@@ -1,7 +1,14 @@
-# 忽略数据文件和测试文件
+# 忽略数据文件
 *.pdf
 *.csv
 *.json
+
+# 忽略编译产物和虚拟环境
 x64/
 .vs/
 __pycache__/
+*.exe
+*.pdb
+
+# 忽略本地秘钥
+.streamlit/secrets.toml
