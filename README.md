@@ -24,4 +24,4 @@
 5. 在网页左侧输入密码 `admin888`，上传 PDF 即可开始体验。
 
 ## 📸 界面截图
-*(在这里放上你刚才那张绝美的 Streamlit 网页截图)*
+<img width="1905" height="823" alt="屏幕截图 2026-10-25 202130" src="https://github.com/user-attachments/assets/420cb4c4-297f-4da5-8751-2bca9f71cf6a" />
